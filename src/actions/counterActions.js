@@ -10,7 +10,9 @@ function decrement() {
   };
 }
 
-export default {
+const methods = {
   increment,
   decrement
-};
+}
+
+export default methods;

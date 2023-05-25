@@ -12,7 +12,9 @@ function removeTodoID(id) {
   };
 }
 
-export default {
+const methods = {
   addTodo,
   removeTodoID
-};
+}
+
+export default methods;

@@ -5,6 +5,8 @@ function setText(text) {
   };
 }
 
-export default {
+const methods = {
   setText
-};
+}
+
+export default methods;
